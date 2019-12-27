@@ -1,8 +1,8 @@
 module SessionsHelper
     # 渡されたユーザーでログインする
-    def log_in(user)
+  def log_in(user)
        session[:user_id] = user.id 
-    end
+  end
     
     # 現在ログイン中のユーザーを返す (いる場合)
   def current_user
